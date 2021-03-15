@@ -1,5 +1,6 @@
 @tailwind base;
 @tailwind components;
+@tailwind utilities;
 
 .btn {
     @apply text-xs font-bold py-1 px-2 rounded;
@@ -52,4 +53,14 @@
     @apply h-6 fill-current;
 }
 
-@tailwind utilities;
+@media print{
+    @page {
+      size: portrait;
+      margin: 2cm;
+    }
+    a[href]:after {
+        content: " (" attr(href) ")";
+        font-size: 90%;
+        color: #333;
+      }
+  }

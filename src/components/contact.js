@@ -3,23 +3,27 @@ import MailIcon from '../assets/mail.svg';
 import MobileIcon from '../assets/mobile.svg';
 import GlobeIcon from '../assets/globe.svg';
 import LocationIcon from '../assets/location.svg';
+import Obfuscate from 'react-obfuscate';
 
 const Contact = ({ field, value }) => (
   <span className="flex my-2 text-primary-900 tracking-widest items-center">
     {field === 'email' && (
       <>
         <MailIcon className="contact-icon" />
-        <a className="contact-link" href={`mailto:${value}`} title="email">
+        {/* <a className="contact-link" href={`mailto:${value}`} title="email">
           {value}
-        </a>
+        </a> */}
+        <Obfuscate
+      email={`${value}`} title="email" />
       </>
     )}
     {field === 'phone' && (
       <>
         <MobileIcon className="contact-icon" />
-        <a className="contact-link" href={`tel:${value}`} title="phone">
+        <Obfuscate tel={`${value}`} title="phone" />
+        {/* <a className="contact-link" href={`tel:${value}`} title="phone">
           {value}
-        </a>
+        </a> */}
       </>
     )}
     {field === 'website' && (

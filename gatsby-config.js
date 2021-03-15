@@ -6,22 +6,22 @@
 
 module.exports = {
   siteMetadata: {
-    title: `Baran Cezayirli | Technologist`,
-    author: `Baran Cezayirli`,
+    title: `Darin Levesque | Technologist`,
+    author: `Darin Levesque`,
     description: `With 10+ years of experience in various industries, I help tech
               startups from idea phase to high volumes. I design and build
               scalable solutions, implement internal processes that fit your
               organization, build teams that produce results.`,
-    siteUrl: `https://barancezayirli.com/`,
+    siteUrl: `https://darinlevesque.com/`,
     social: {
-      twitter: `barancezayirli`,
+      twitter: `darinlevesque`,
     },
   },
   plugins: [
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `Baran Cezayirli | Technologist`,
+        name: `Darin Levesque | Technologist`,
         short_name: `CV`,
         start_url: `/`,
         background_color: `#f7f0eb`,
@@ -31,6 +31,9 @@ module.exports = {
       },
     },
     'gatsby-plugin-offline',
+    `gatsby-plugin-image`,
+    `gatsby-plugin-sharp`,
+    `gatsby-transformer-sharp`,
     'gatsby-transformer-json',
     {
       resolve: `gatsby-source-filesystem`,
