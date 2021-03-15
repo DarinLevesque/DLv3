@@ -17,6 +17,7 @@ const Experience = ({ data }) => (
   </section> */}
   <section class="text-gray-600 body-font overflow-hidden">
   <div class="container px-5 py-24 mx-auto">
+    <h1 className="section-header">Experience</h1>
     <div class="-my-8 divide-y-2 divide-gray-100">
     {data &&
       data.map((item, i) => (
