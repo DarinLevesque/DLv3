@@ -19,7 +19,7 @@
           "percent": 85
         },
         {
-          "name": "Project Management",
+          "name": "Program Management",
           "percent": 92
         },
         {
@@ -123,9 +123,6 @@
         },
         {
           "name": "Firebase"
-        },
-        {
-          "name": "Elastic Search"
         }
       ]
     }
@@ -143,7 +140,7 @@
     {
       "role": "Business Intelligence Engineer",
       "company": "Vertical Applications Inc.",
-      "description": "I consult startups to take their concept to the next level.",
+      "description": "Supports U.S. Army Corps of Engineers by providing Qlik Sense and Power BI services, training and support. Grew user base from 2,000 to 10,000 active Qlik Sense users in under 2 years.",
       "start": "05/2019",
       "end": ""
     },
