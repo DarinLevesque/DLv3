@@ -53,14 +53,15 @@
     @apply h-6 fill-current;
 }
 
-@media print{
+/* @media print{
     @page {
       size: portrait;
       margin: 2cm;
+      min-width: 1024px;
     }
     a[href]:after {
         content: " (" attr(href) ")";
         font-size: 90%;
         color: #333;
       }
-  }
+  } */
