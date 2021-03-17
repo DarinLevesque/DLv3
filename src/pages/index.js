@@ -25,7 +25,7 @@ class Home extends React.Component {
     return(
       <main className="antialiased text-neutral-900 bg-neutral-100 min-h-screen sm:p-5">
         <SEO title="Resume" />
-        <div className="container mx-auto shadow bg-white py-5 px-10">
+        <div className="container mx-auto shadow bg-white py-5 px-10 dark:bg-gray-800">
           <Header
             contacts={resume.contact}
             name={resume.fullname}

@@ -2,7 +2,7 @@ const { colors } = require('tailwindcss/defaultTheme');
 
 module.exports = {
   purge: ['./src/**/*.{js,jsx,ts,tsx}'],
-  darkMode: false, // or 'media' or 'class'
+  darkMode: 'media', // or 'media' or 'class'
   theme: {
     colors: {
       primary: {
@@ -40,7 +40,11 @@ module.exports = {
       },
       white: '#FFF',
     },
-    extend: {},
+    extend: {
+      screens: {
+        'print': {'raw': 'print'},
+      }
+    },
   },
   variants: {},
   plugins: [],

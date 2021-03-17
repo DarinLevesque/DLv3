@@ -1,3 +1,5 @@
+[![Netlify Status](https://api.netlify.com/api/v1/badges/926aaa33-9b0c-4666-9647-ff5d3c602da3/deploy-status)](https://app.netlify.com/sites/quirky-fermi-e02803/deploys)
+
 # Gatsby Starter Resume CMS
 
 ![resume-template](./preview.png "Gatsby resume template")
